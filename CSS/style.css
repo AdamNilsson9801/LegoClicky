@@ -1,0 +1,18 @@
+body{
+    background-image: url("../Images/legoBack.png");
+    background-color: #FFCF01;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: Clicky Bricks;
+    src: url("../Fonts/Font1/ClickyBricks.otf") format("opentype");
+     
+}
+#logo{
+    width: 30vw;
+    display: block;
+    margin: 0 auto;
+    margin-top: 13vw;
+
+}
