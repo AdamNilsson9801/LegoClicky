@@ -1,18 +1,31 @@
+@font-face {
+    font-family: Fontlogo;
+    src: url("../Fonts/Font1/ClickyBricks.otf");
+  }
 body{
     background-image: url("../Images/legoBack.png");
     background-color: #FFCF01;
     background-size: 100vw;
     background-repeat: no-repeat;
+    margin: 0;
+    
 }
 h1{
-    font-family: Clicky Bricks;
-    src: url("../Fonts/Font1/ClickyBricks.otf") format("opentype");
+    font-family: Fontlogo;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 13vw;
+    
      
 }
-#logo{
-    width: 30vw;
-    display: block;
-    margin: 0 auto;
-    margin-top: 13vw;
 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
 }
+
+
+
